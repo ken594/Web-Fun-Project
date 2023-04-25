@@ -1,0 +1,23 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+  padding: 1rem 10%;
+}
+
+section {
+  height: 100vh;
+}
+
+section a {
+  color: #081b29;
+  font-weight: 600;
+}
+
+section a:nth-child(2) {
+  background: transparent;
+  color: rgb(96, 165, 250);
+}
