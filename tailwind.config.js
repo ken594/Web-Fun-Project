@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["dist/**/*.{html,js}", "index.html"],
+  content: ["index.html", "dist/**/*.{html,js}"],
   theme: {
     extend: {
       transitionDuration: {
