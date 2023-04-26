@@ -12,6 +12,18 @@ section {
   height: 100vh;
 }
 
+@media screen and (max-width: 639px) {
+  section {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  section {
+    height: 30vh;
+  }
+}
+
 section a {
   color: #081b29;
   font-weight: 600;
